@@ -5,8 +5,6 @@ def solution(s):
     elif s[0] == "0":
         return False
     
-    try:
+    else:
         answer = int(s)
         return answer
-    except ValueError:
-        return False
