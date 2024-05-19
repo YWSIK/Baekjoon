@@ -13,4 +13,6 @@ def solution(k, tangerine):
         cnt += 1
         
         if total >= k:
-            return cnt
+            break;
+            
+    return cnt
